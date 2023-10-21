@@ -108,6 +108,181 @@
         figure
           img(src="@/assets/curso/tema1/10.svg")
     
+    .row.mt-5
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-7.col-md-7.col-lg-12
+          img(src="@/assets/curso/tema1/11.png")
+      .col-lg-7(data-aos="fade-left" style="place-self:center;")
+        p Dentro de las inspecciones lógicas de red se encuentran:
+        ul.lista-ul.mt-3.ps-3
+          li.d-flex
+            i.fas.fa-angle-right(style="color:#6E40FB;")
+            | Parámetros de red
+          li.d-flex
+            i.fas.fa-angle-right(style="color:#6E40FB;")
+            div Comando #[em ping]
+          li.d-flex
+            i.fas.fa-angle-right(style="color:#6E40FB;")
+            | Comando tracert y traceroute
+          li.d-flex
+            i.fas.fa-angle-right(style="color:#6E40FB;")
+            | Comando ARP
+          li.d-flex
+            i.fas.fa-angle-right(style="color:#6E40FB;")
+            | Comando Route
+          li.d-flex
+            i.fas.fa-angle-right(style="color:#6E40FB;")
+            | Comando Nslookup
+    
+    .cont_1_4.mt-5.pt-4.pt-lg-5.pb-4.pb-lg-5
+      h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Parámetros de red
+      p.mt-4(data-aos="fade-left") Para realizar dicha verificación se hace uso de los comandos del sistema #[em ipconfig] en sistemas operativos Windows, o #[em.fw-bold.text-white(style="background-color:#6E40FB;") ifconfig] en sistemas operativos derivados de UNIX como Linux o MAC OS. Esta operación se realiza en el intérprete de comando conocido como #[strong.fw-bold.text-white(style="background-color:#6E40FB;") cmd.exe] o símbolo del sistema, su invocación muestra los parámetros básicos de la configuración TCP/IP de las interfaces de red habilitadas en los equipos de cómputo o estaciones de trabajo:
+
+      .col-xl-11.m-auto.mt-5
+        .row
+          .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+            figure.m-auto.col-4.col-md-5.col-lg-12
+              img(src="@/assets/curso/tema1/12.png")
+          .col-lg-9(data-aos="fade-left" style="place-self:center;")
+            .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-in")
+              h5 Figura 2.
+              span Comando #[em ipconfig]
+            figure
+              img(src="@/assets/curso/tema1/13.svg" alt="Imagen de la ejecución del comando ipconfig en un equipo con sistema operativo Windows." data-aos="zoom-in-up")
+    
+    p.mt-5(data-aos="fade-right") Dentro de los parámetros de red a visualizar se tienen la dirección IP, la máscara de subred y la puerta de enlace predeterminada o #[em Gateway].
+    p.mt-4(data-aos="fade-left") Cuando se desee conocer mayor información de la configuración TCP/IP del equipo se puede recurrir a los siguientes comandos del sistema:
+
+    .col-xl-8.m-auto.mt-5
+      .titulo-sexto.color-acento-contenido(data-aos="fade-in")
+        h5 Tabla 2.
+        span Comandos del sistema
+      .tabla-a.color-acento-botones.mt-4(data-aos="zoom-in-up")
+        table
+          caption.mt-0.fw-normal(style="background-color:#F6F6F6;") Nota: tomado de Castaño (2013).
+          thead(style="border:0;")
+            tr(style="background-color:#6E40FB;")
+              th.text-white.text-center(style="border:1px #fff solid;") Windows
+              th.text-white.text-center(style="border:1px #fff solid;") UNIX
+          tbody
+            tr(style="background-color:#E9E2FE;")
+              td.p-3(style="border:1px #6E40FB solid;") ipconfig/all: Muestra la información detallada de las interfaces del equipo
+              td.p-3(style="border:1px #6E40FB solid;") ifconfig-a: Muestra la información detallada de las interfaces del equipo #[br] ifconfig #[em interfaz]: Informar sobre una interfaz determinada
+            tr(style="background-color:#fff;")
+              td.p-3(style="border:1px #6E40FB solid;") ipconfig/release: Permite borrar la configuración actual del adaptador de red
+              td.p-3(style="border:1px #6E40FB solid;") ifconfig interfaz #[em address dirección_IP netmask máscara]: Permite modificar los parámetros de acceso a la red de una interfaz según las especificaciones de dirección_IP y máscara configurados
+            tr(style="background-color:#E9E2FE;")
+              td.p-3(style="border:1px #6E40FB solid;") Ipconfig/renew: Permite volver a cargar la configuración del adaptador de red
+              td.p-3(style="border:1px #6E40FB solid;") Ifconfig #[em interfaz] up: Habilita la interfaz indicada #[br] Ifconfig #[em interfaz] down: Deshabilita la interfaz indicada.
+    
+    .cont_1_3.pb-4.pb-lg-5.mt-5
+      h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando ping
+      p.mt-4(data-aos="fade-left") Ping (#[em Packet Internet Groper]) está presente tanto en sistemas operativos Windows como en UNIX y en los sistemas operativos de red de algunos routers. El comando #[em ping] emplea el protocolo ICMP (Protocolo de control y notificación de errores) que está implementado por el modelo TCP/IP.
+      .row.mt-5
+        .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+          p Para verificar la conectividad de los dispositivos en red se especifica la dirección IP del dispositivo destino con el que se quiere establecer la conexión; si el comando ping no recibe respuesta, esto indica un problema de conectividad que se encuentra ubicado en algún elemento del nivel físico o de red, o en la misma configuración de red del equipo origen o destino.
+          figure.mt-4.m-auto.col-6.col-md-6.col-lg-12
+            img(src="@/assets/curso/tema1/14.svg")
+        .col-lg-7(data-aos="fade-left")
+          .tarjeta.p-4.p-lg-5.pb-lg-4.pb-4.mt-5.cont_slyder1
+            SlyderA(tipo="b")
+              .row.m-0
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 3.
+                  span Comando #[em ping] a dirección IP
+                figure
+                  img(src='@/assets/curso/tema1/15.svg' alt="Imagen de la ejecución de una prueba ping.")
+              .row.m-0
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 4.
+                  span Ejecución del comando #[em ping] a URL
+                figure
+                  img(src='@/assets/curso/tema1/16.svg' alt="Imagen de la ejecución del comando ping a la URL www.google.com.co en un equipo con sistema operativo Windows.")
+
+    p.mt-5(data-aos="fade-right") Al usar el comando ping, este envía un mensaje ICMP con una solicitud de #[strong.fw-bold.text-white(style="background-color:#6E40FB;") echo] al equipo destino. Los resultados emitidos están conformados por el número de paquetes que se envían de origen a destino, los paquetes recibidos y los paquetes perdidos, incluyendo el tiempo de ida y vuelta de los paquetes medido en milisegundos. Si la conexión a internet es la correcta se obtiene una respuesta donde los paquetes perdidos representan el 0 %.
+
+    h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando tracert y traceroute
+    p.mt-4(data-aos="fade-left") El comando #[strong.fw-bold.text-white(style="background-color:#6E40FB;") tracert] para sistemas operativos Windows y #[strong.fw-bold.text-white(style="background-color:#6E40FB;") traceroute] para sistemas operativos UNIX como MAC OS o Linux y para sistemas operativos de red de algunos #[em routers], es una herramienta de diagnóstico que permite rastrear el recorrido de los paquetes y los tiempos de retardo que se producen. Al aplicar el comando, este muestra los datos de los dispositivos de red y los nodos por los que pasa y el tiempo que toma cada salto hasta conseguir llegar al destino.
+    .row.mt-5
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.mt-4.m-auto.col-6.col-md-6.col-lg-12
+          img(src="@/assets/curso/tema1/17.png")
+      .col-lg-7(data-aos="fade-left")
+        p En sistemas Windows, para ejecutar este comando, se abre una ventana del sistema #[strong.fw-bold.text-white(style="background-color:#6E40FB;") cmd.exe] o símbolo del sistema. Allí, digitar la siguiente línea: #[strong.fw-bold.text-white(style="background-color:#6E40FB;") tracert] #[em URL_pagina_web].
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Figura 5.
+          span Comando #[em tracert]
+        figure
+          img(src='@/assets/curso/tema1/18.svg' alt="Ejecución del comando tracert a la URL www.google.com.co en un equipo con sistema operativo Windows.")
+    
+    p.mt-5(data-aos="fade-right") La figura siguiente, detalla más y mejor la ejecución del comando tracert y traceroute:
+
+    .col-xl-10.m-auto.mt-4
+      .p-3.p-lg-4(style="background-color:#E9E2FE;")
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Figura 6.
+          span Comando #[em tracert y traceroute]
+        .row
+          .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
+            figure
+              img(src='@/assets/curso/tema1/19.svg' alt="Gráfica que muestra la estructura de una prueba de la ruta desde el host B hacia un host remoto D, en la ejecución del comando tracert y traceroute.")
+          .col-lg-4(data-aos="fade-left")
+            .h-100.d-flex.flex-wrap.align-content-center.p-4.p-xl-5(style="background-color:#CCBCFD;")
+              p.mb-0 Las columnas con la información que se muestra en la pantalla después de la ejecución del comando Tracert indica, respectivamente: primera columna el número de salto, las siguientes tres columnas el tiempo de respuesta de los paquetes que son enviados, donde el símbolo del asterisco (*) indica que no se obtuvo respuesta, y la última columna indica la dirección IP del nodo por el que pasa el paquete.
+    
+    .cont_1_4.mt-5.pt-4.pt-lg-5.pb-4.pb-lg-5
+      h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando ARP
+      p.mt-4(data-aos="fade-left") El comando ARP, (Protocolo de resolución de direcciones) permite obtener la información de la tabla ARP del dispositivo en red.
+      .titulo-sexto.color-acento-contenido.mt-4(data-aos="fade-in")
+        h5 Figura 7.
+        span Comando ARP
+      .row
+        .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
+          figure
+            img(src="@/assets/curso/tema1/20.svg" alt="Imagen de la ejecución del comando arp -a en un equipo con sistema operativo Windows.")
+        .col-lg-4(data-aos="fade-left")
+          .h-100.d-flex.flex-wrap.align-content-center.p-4(style="background-color:#B0C5FD;")
+            figure
+              img(src="@/assets/curso/tema1/21.svg" style="max-width:70px;display:inline;")
+            p.mt-3.mb-0 Como sugiere la imagen del comando ARP, la tabla contiene una asociación de dirección IPv4 con su correspondiente dirección MAC o dirección física, incluido el tipo de direccionamiento IP (estático o dinámico). Para la ejecución del comando ARP se usa la ventana cmd.exe digitando la siguiente línea: arp -a.
+
+    h4.text-white.p-2.mb-0.ps-4.pe-4.mt-5(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando Route
+    p.mt-4(data-aos="fade-right") Este comando es una herramienta del sistema que permite la consulta de las tablas de enrutamiento del equipo en red.
+
+    .col-xl-10.m-auto.mt-5
+      .titulo-sexto.color-acento-contenido(data-aos="fade-in")
+        h5 Figura 8.
+        span Comando #[em Route print]
+      figure(data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema1/22.svg" alt="Imagen de la ejecución del comando route print en un equipo con sistema operativo Windows.")
+    
+    p.mt-5(data-aos="fade-right") Para consultar la información en sistemas operativos Windows en la ventana cmd.exe digitar la siguiente línea: route print, para sistemas derivados de UNIX digitar la línea: route -n.
+
+    .cont_1_5.mt-5.pt-4.pt-lg-5.pb-4.pb-lg-5
+      h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando Nslookup
+      p.mt-4(data-aos="fade-left") Este comando es una herramienta del sistema que permite la comprobación del correcto funcionamiento del servidor DNS. La información asocia el nombre de dominio consultado a su respectiva dirección IPv4 o IPv6 según sea el caso.
+      .titulo-sexto.color-acento-contenido.mt-4(data-aos="fade-in")
+        h5 Figura 9.
+        span Comando nslookup
+      .row
+        .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
+          figure
+            img(src="@/assets/curso/tema1/23.svg" alt="Imagen de la ejecución del comando nslookup facebook.com en un equipo con sistema operativo Windows.")
+        .col-lg-4(data-aos="fade-left")
+          .h-100.d-flex.flex-wrap.align-content-center.p-4(style="background-color:#B0C5FD;")
+            figure
+              img(src="@/assets/curso/tema1/21.svg" style="max-width:70px;display:inline;")
+            p.mt-3.mb-0 La ejecución del comando se puede realizar de dos formas una interactiva donde en sistemas operativos Windows en la consola cmd.exe se digita: #[em nslookup], al presionar la tecla enter se realizará una conexión con el servidor DNS y aquí se puede realizar la consulta digitando la URL. De otra forma no interactiva se digita el comando directamente en la consola cmd.exe, por ejemplo: #[em nslookup facebook.com].
+      p.mt-5(data-aos="fade-right") En el siguiente video se explican algunos de los comandos de red en Windows que pueden ser usados para verificar la conectividad de la red:
+      figure.mt-4(data-aos="zoom-im-up")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            
+
+
+
+
+    
 
 
       
@@ -176,4 +351,24 @@ export default {
 .slyder-a__bullets__item--active
   background-color: #FC98B0 !important
   border-color: #FC98B0 !important
+.cont_1_4, .cont_1_4 *
+  position: relative
+.cont_1_4:before
+  content: ''
+  position: absolute
+  width: 125%
+  left: -15%
+  height: 100%
+  background-color: #DDE6FE
+  top: 0
+.cont_1_5, .cont_1_5 *
+  position: relative
+.cont_1_5:before
+  content: ''
+  position: absolute
+  width: 125%
+  left: -15%
+  height: 75%
+  background-color: #F6F6F6
+  top: 0
 </style>

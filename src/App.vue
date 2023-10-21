@@ -50,22 +50,24 @@ export default {
   color: #fff !important
 .banner-principal-decorativo-1
   animation: float1 2s ease-in-out infinite alternate !important
-  top: 24% !important
-  right: 56% !important
+  top: 50% !important
+  right: 78% !important
 .banner-principal-decorativo-2
-  animation: float1 3s ease-in-out infinite alternate !important
-  top: 16% !important
-  right: 42% !important
+  animation: float2 3s ease-in-out infinite alternate !important
+  top: 8% !important
+  right: 67% !important
 .banner-principal-decorativo-3
-  animation: float1 2s ease-in-out infinite alternate !important
-  top: 15% !important
-  right: 23% !important
+  animation: float2 2s ease-in-out infinite alternate !important
+  top: 27% !important
+  right: 37% !important
 .banner-principal-decorativo-4
   animation: float1 2s ease-in-out infinite alternate !important
-  top: 31% !important
-  right: 16% !important
+  top: 59% !important
+  right: 37% !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero
   background-color: #6E40FB !important
+.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
+  padding-left: 3rem !important
 @media screen and (max-width: 992px)
   .cont_responsive1
     right: 0 !important
@@ -78,4 +80,13 @@ export default {
   .cont_1_1:before
     height: 100% !important
     top: 0 !important
+  .cont_1_5:before
+    height: 100% !important
+  .cont_3_1:before
+    height: 100% !important
+  .cont_3_3:before
+    top: 0 !important
+    height: 100% !important
+  .cont_3_5:before
+    height: 100% !important
 </style>
