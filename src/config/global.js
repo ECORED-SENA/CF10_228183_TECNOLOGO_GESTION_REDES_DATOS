@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Verificación de acuerdo con políticas de la organización',
+    descripcionCurso:
+      'Este componente formativo aborda elementos generales y claves del proceso de verificación de dispositivos y servicios de red, según las políticas y criterios de la organización. Con su estudio responsable, el aprendiz podrá apropiarse de inspección física y lógica de la red, parámetros, comandos, monitoreos de rendimiento, protocolos de prueba y demás acciones propias del proceso.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +14,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,13 +41,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Verificación de conectividad',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Inspección física de la red',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Inspección lógica de la red',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,14 +60,31 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Verificación de dispositivos de cómputo',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Verificación de red',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Monitoreo de rendimiento',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Monitoreo de red',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Protocolos de prueba',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,31 +134,75 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Inspección lógica de la red',
+      referencia:
+        'Instituto Tecnológico de Roque (2021). Introducción a redes. <em>Itroque</em>.',
+      tipo: 'Sitio web',
+      link: 'http://itroque.edu.mx/cisco/cisco1/course/module8/#8.3.2.1',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'ICMP',
+      referencia:
+        'Instituto Tecnológico de Roque (2021). Introducción a redes. <em>Itroque</em>.',
+      tipo: 'Sitio web',
+      link: 'http://itroque.edu.mx/cisco/cisco1/course/module8/#8.3.1.1',
+    },
+    {
+      tema: 'SNMP',
+      referencia:
+        'Network Direction (2020). <em>How SNMP Works | Network Fundamentals Part 24</em>. [Video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=vWZefoGNk5g',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Checksum',
+      significado:
+        'detecta cambios inesperados en una cadena de datos, verificando su integridad.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'CPU',
+      significado:
+        'siglas que indican Unidad de Procesamiento Central, aquí se encuentran los componentes que permiten a los equipos electrónicos realizar el procesamiento de datos.',
+    },
+    {
+      termino: 'SAI',
+      significado:
+        'sistema de alimentación ininterrumpida o también conocido como UPS son dispositivos que sirven para proporcionar una protección eléctrica.',
+    },
+    {
+      termino: 'UDP',
+      significado:
+        'es el protocolo de datagramas de usuario, permite la transmisión de datagramas en red.',
+    },
+    {
+      termino: 'UNIX',
+      significado:
+        'sistema operativo multitarea y multiusuario. Los posteriores desarrollos de este sistema son Linux, MAC OS X, Android, iOS, entre otros.',
+    },
+    {
+      termino: 'URL',
+      significado:
+        'localizador de recursos uniforme, es un identificador que se le asigna a los recursos disponibles en internet como páginas WEB, textos, fotos, videos, entre otros. La URL tiene su correspondencia con una dirección IP.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Ariganello, E. (2020). Redes cisco - Guía de estudio para la certificación CCNA 200-301. <em>alphaeditorialcloud</em>.',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/library/publication/redes-cisco-guia-de-estudio-para-la-certificacion-ccna-200-301',
+    },
+    {
+      referencia:
+        'Castaño Ribes, R. J. (2013). Redes locales. Macmillan Iberia S.A.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43257?page=298',
+    },
+    {
+      referencia:
+        'Valdivia, C. (2020). <em>Sistemas informáticos y redes locales. Ediciones Paraninfo S.A.',
       link: '',
     },
   ],
@@ -140,10 +216,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
       ],
     },
@@ -151,10 +226,62 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Carlos Mauricio Tovar Artunduaga',
+          cargo: 'Experto temático',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Servicios y Gestión Empresarial. Regional Antioquia',
+        },
+        {
+          nombre: 'Jorge Eliécer Loaiza Muñoz',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Diseño e innovación tecnológica industrial. Regional Antioquia',
+        },
+        {
+          nombre: 'Cinthia Rocío Trejos Chacón',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de la Industria, la empresa y los servicios. Regional Norte de Santander',
+        },
+        {
+          nombre: 'Deivis Eduard Ramírez Martínez',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica. Regional Distrito Capital',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de la gestión industrial. Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro industrial del Diseño y la Manufactura. Regional Santander',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica. Regional Distrito Capital',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable desarrollo curricular Ecosistema RED Santander',
+          centro:
+            'Centro industrial del Diseño y la Manufactura. Regional Santander',
+        },
+        {
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
       ],
     },
@@ -162,26 +289,32 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: '',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -191,22 +324,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
       ],
     },
