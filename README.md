@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Verificación de acuerdo con políticas de la organización**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF10_228183_TECNOLOGO_GESTION_REDES_DATOS/#/](https://ecored-sena.github.io/CF10_228183_TECNOLOGO_GESTION_REDES_DATOS/#/)
 
 #
 
