@@ -84,7 +84,7 @@
             .col(style="place-self:center;" data-aos="fade-left")
               p.mb-0 El monitoreo de red no es exclusivo para organizaciones con infraestructuras de red extensas; también es necesario y conveniente realizar una supervisión en redes con pocos dispositivos a fin de detectar problemas que afecten los servicios prestados por la empresa.
       .col-lg-5(data-aos="fade-left" style="place-self:center;")
-        figure.m-auto.col-7.col-md-7.col-lg-12
+        figure.m-auto.col-7.col-md-7.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema3/9.png")
     
     .cont_3_3.mt-5
@@ -130,8 +130,8 @@
           img(src="@/assets/curso/tema3/16.png")
       .col-lg-8(data-aos="fade-left" style="place-self:center;")
         p Según Valdivia (2020) hay dos protocolos importantes, que son usados para testear redes de datos:
-        p #[strong.text-white.p-1(style="background-color:#6E40FB;") #[i.fas.fa-angle-right.text-white] Internet Control Message Protocol (ICMP):] es el Protocolo de mensajes de control de Internet.
-        p #[strong.text-white.p-1(style="background-color:#6E40FB;") #[i.fas.fa-angle-right.text-white] Simple Network Management Protocol (SNMP):] es el Protocolo simple de administración de redes.
+        p #[strong.text-white.p-1(style="background-color:#6E40FB;") #[i.fas.fa-angle-right.text-white] #[em Internet Control Message Protocol (ICMP):]] es el Protocolo de mensajes de control de Internet.
+        p #[strong.text-white.p-1(style="background-color:#6E40FB;") #[i.fas.fa-angle-right.text-white] #[em Simple Network Management Protocol (SNMP):]] es el Protocolo simple de administración de redes.
     
     .cont_3_4.mt-5.pt-4.pt-lg-5.pb-4.pb-lg-5
       h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Protocolo ICMP
@@ -141,7 +141,7 @@
           p.mt-4 Dentro de las funcionalidades de los mensajes ICMP, está la de confirmar si un destino se encuentra activo y es alcanzable; también, informar problemas de parámetros en una cabecera de datagrama, la sincronización de reloj y las estimaciones de tiempo de tránsito, además, obtiene direcciones de Internet y máscaras de subred.
           p.mt-4 La figura siguiente muestra el formato del mensaje ICMP
         .col-lg(data-aos="fade-left")
-          figure.m-auto.col-7.col-md-7.col-lg-12
+          figure.m-auto.col-7.col-md-7.col-lg-12.d-none.d-lg-block
             img(src="@/assets/curso/tema3/17.png")
       .col-xl-6.col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido(data-aos="fade-in")

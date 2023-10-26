@@ -28,8 +28,6 @@ export default {
 }
 </script>
 <style lang="sass">
-.banner-interno
-  height: 150px
 .banner-interno__fondo
   background-image: url(assets/curso/fondo_tema.png) !important
 .banner-principal .tarjeta

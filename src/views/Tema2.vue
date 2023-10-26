@@ -62,7 +62,8 @@ export default {
   left: -15%
   bottom: -12%
   height: 100%
-  background-color: #B0C5FD
+  background: rgb(176,197,253)
+  background: linear-gradient(0deg, rgba(176,197,253,1) 85%, rgba(255,255,255,1) 100%)
 .acordion .tarjeta--azul
   background-color: #DDE6FE
 .acordion__accion__btn--b

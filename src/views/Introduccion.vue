@@ -13,7 +13,7 @@
         .row
           .col-auto.d-none.d-md-block(style="place-self:center;")
             figure
-              img(src="@/assets/curso/sintesis1.svg")
+              img(src="@/assets/curso/sintesis1.png")
           .col(style="place-self:center;")
             p.mb-0 Reciba una gran bienvenida al estudio del componente formativo #[strong(style="color:#6E40FB;") “Verificación de acuerdo con políticas de la organización”]. Comience consultando el siguiente video, donde se ofrece un primer acercamiento y contextualización con los temas por desarrollar. #[strong(style="color:#6E40FB;") ¡Adelante!]
     figure(data-aos="zoom-im-up")

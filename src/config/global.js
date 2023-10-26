@@ -9,19 +9,19 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
       {
         clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
       {
         clases: ['banner-principal-decorativo-4'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
       },
     ],
   },
@@ -134,30 +134,16 @@ export default {
   },
   complementario: [
     {
-      tema: 'Inspección lógica de la red',
-      referencia:
-        'Instituto Tecnológico de Roque (2021). Introducción a redes. <em>Itroque</em>.',
-      tipo: 'Sitio web',
-      link: 'http://itroque.edu.mx/cisco/cisco1/course/module8/#8.3.2.1',
-    },
-    {
-      tema: 'ICMP',
-      referencia:
-        'Instituto Tecnológico de Roque (2021). Introducción a redes. <em>Itroque</em>.',
-      tipo: 'Sitio web',
-      link: 'http://itroque.edu.mx/cisco/cisco1/course/module8/#8.3.1.1',
-    },
-    {
       tema: 'SNMP',
       referencia:
-        'Network Direction (2020). <em>How SNMP Works | Network Fundamentals Part 24</em>. [Video] YouTube.',
+        'Network Direction (2020). <em>How SNMP Works | Network Fundamentals Part 24</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=vWZefoGNk5g',
     },
   ],
   glosario: [
     {
-      termino: 'Checksum',
+      termino: '<em>Checksum</em>',
       significado:
         'detecta cambios inesperados en una cadena de datos, verificando su integridad.',
     },
@@ -270,7 +256,7 @@ export default {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñador Instruccional',
           centro:
-            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',

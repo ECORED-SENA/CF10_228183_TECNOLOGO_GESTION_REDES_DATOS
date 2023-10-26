@@ -6,7 +6,7 @@
       .row
         .col-auto.d-none.d-md-block(style="place-self:center;")
           figure
-            img(src="@/assets/curso/sintesis1.svg")
+            img(src="@/assets/curso/sintesis1.png")
         .col(style="place-self:center;")
           p.mb-0 Ha llegado al final de los contenidos de este componente formativo. En este punto, haga un análisis del mapa que se muestra enseguida y realice su propia síntesis de los temas, conceptos y elementos desarrollados. #[strong(style="color:#6E40FB;") ¡Adelante!]
 
