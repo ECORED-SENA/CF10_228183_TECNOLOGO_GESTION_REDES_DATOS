@@ -22,12 +22,12 @@
           span Inspección física e inspección lógica
         figure.mt-4
           img(src="@/assets/curso/tema1/2.svg" alt="Gráfica que ilustra cada una de las dos formas de inspección: física y lógica o de software." data-aos="zoom-in-up")
-    
+
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_1_1 1.1  Inspección física de la red
-    
+
     .cont_1_3.pb-4.pb-lg-5
       p(data-aos="fade-right") La primera comprobación consiste en la revisión física de la red mediante un recorrido donde se inspecciona el estado de los cables, los conectores, los paneles y los adaptadores de red.
       p(data-aos="fade-left") Donde se requiera la inspección de la operatividad del cableado, se usan herramientas físicas para el testeo de la red; estos son:
@@ -35,14 +35,14 @@
         SlyderA(tipo="b")
           .row
             .col-md-6.col-lg-8.mb-4.mb-md-0
-              h5(style="color:#6E40FB;") Comprobadores de continuidad 
+              h5(style="color:#6E40FB;") Comprobadores de continuidad
               p.mt-4 También llamados #[em tester], polímetro o multímetro, esta herramienta se usa para realizar mediciones de continuidad del cableado. Entre estos se encuentran dos tipos: multímetro y medidor de potencia de fibra óptica.
             .col-md-6.col-lg-4
               figure
                 img(src='@/assets/curso/tema1/5.png')
           .row
             .col-md-6.col-lg-8.mb-4.mb-md-0
-              h5(style="color:#6E40FB;") Multímetro digital 
+              h5(style="color:#6E40FB;") Multímetro digital
               p.mt-4 Mide magnitudes eléctricas (voltaje y corriente), algunos modelos miden también parámetros como temperatura (°C, °F), resistividad (Ω). Cuenta con dos cables de prueba usados para realizar la medición directa en el punto de conexión a verificar.
             .col-md-6.col-lg-4
               figure
@@ -56,19 +56,19 @@
                 img(src='@/assets/curso/tema1/7.png')
           .row
             .col-md-6.col-lg-8.mb-4.mb-md-0
-              h5(style="color:#6E40FB;") Comprobadores de red 
+              h5(style="color:#6E40FB;") Comprobadores de red
               p.mt-4 Estas son herramientas que permiten comprobar el estado de conectividad física entre los dos extremos de los cables de red, la información que brinda esta prueba de continuidad, cruzamiento, terminales de conexión, entre otros.
             .col-md-6.col-lg-4
               figure
                 img(src='@/assets/curso/tema1/8.png')
-    
+
     .row.mt-5
       .col-auto.d-none.d-md-block(style="place-self:center;" data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema1/9.svg")
       .col(style="place-self:center;" data-aos="fade-left")
         p.mb-0 Por otro lado, al realizar la verificación física de los dispositivos de red como #[em switch, router], servidores, entre otros, se suele realizar una inspección rápida de los indicadores luminosos, comúnmente conocidos como LED que proporcionan una vista rápida del estado de conexión del equipo.
-    
+
     p.mt-4(data-aos="fade-right") Algunos identificadores LED que se encuentran en estos dispositivos son:
 
     .col-xl-8.m-auto.mt-5
@@ -84,30 +84,30 @@
               th.text-white.text-center(style="border:1px #fff solid;") FUNCIÓN
           tbody
             tr(style="background-color:#E9E2FE;")
-              td.p-3.fw-bold(style="border:1px #6E40FB solid;") Sistema o #[em Power] 
+              td.p-3.fw-bold(style="border:1px #6E40FB solid;") Sistema o #[em Power]
               td.p-3(style="border:1px #6E40FB solid;") Indica si el equipo está encendido y conectado a la red eléctrica.
             tr(style="background-color:#fff;")
               td.p-3.fw-bold(style="border:1px #6E40FB solid;") Estado del enlace del puerto
               td.p-3(style="border:1px #6E40FB solid;") Se asocia a la conexión del dispositivo en la red.
             tr(style="background-color:#E9E2FE;")
-              td.p-3.fw-bold(style="border:1px #6E40FB solid;") Modo del puerto 
+              td.p-3.fw-bold(style="border:1px #6E40FB solid;") Modo del puerto
               td.p-3(style="border:1px #6E40FB solid;") Indica el modo de operación del puerto.
             tr(style="background-color:#fff;")
               td.p-3.fw-bold(style="border:1px #6E40FB solid;") Velocidad de transmisión
               td.p-3(style="border:1px #6E40FB solid;") Indica la velocidad de transmisión a la que opera el puerto.
-    
+
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_1_2 1.2  Inspección lógica de la red
-    
+
     .row.mt-5
       .col(style="place-self:center;" data-aos="fade-right")
         p.mb-0 Es aquella que se implementa mediante #[em software]; permite verificar la conectividad lógica de la red. Esta inspección del sistema consta de comprobar que los parámetros de los dispositivos de dicha red estén correctamente configurados. Así, se puede revisar la comunicación interna y externa de los equipos en red.
       .col-auto.d-none.d-md-block(style="place-self:center;" data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/10.svg")
-    
+
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         figure.m-auto.col-7.col-md-7.col-lg-12
@@ -133,7 +133,7 @@
           li.d-flex
             i.fas.fa-angle-right(style="color:#6E40FB;")
             div Comando #[em.fw-bold Nslookup]
-    
+
     .cont_1_4.mt-5.pt-4.pt-lg-5.pb-4.pb-lg-5
       h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Parámetros de red
       p.mt-4(data-aos="fade-left") Para realizar dicha verificación se hace uso de los comandos del sistema #[em.fw-bold.text-white(style="background-color:#6E40FB;") ipconfig] en sistemas operativos Windows, o #[em.fw-bold.text-white(style="background-color:#6E40FB;") ifconfig] en sistemas operativos derivados de UNIX como Linux o MAC OS. Esta operación se realiza en el intérprete de comando conocido como #[strong.fw-bold.text-white(style="background-color:#6E40FB;") cmd.exe] o símbolo del sistema, su invocación muestra los parámetros básicos de la configuración TCP/IP de las interfaces de red habilitadas en los equipos de cómputo o estaciones de trabajo:
@@ -149,7 +149,7 @@
               span Comando #[em ipconfig]
             figure
               img(src="@/assets/curso/tema1/13.png" alt="Imagen de la ejecución del comando ipconfig en un equipo con sistema operativo Windows." data-aos="zoom-in-up")
-    
+
     p.mt-5(data-aos="fade-right") Dentro de los parámetros de red a visualizar se tienen la dirección IP, la máscara de subred y la puerta de enlace predeterminada o #[em Gateway].
     p.mt-4(data-aos="fade-left") Cuando se desee conocer mayor información de la configuración TCP/IP del equipo se puede recurrir a los siguientes comandos del sistema:
 
@@ -174,7 +174,7 @@
             tr(style="background-color:#E9E2FE;")
               td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold Ipconfig/renew]: Permite volver a cargar la configuración del adaptador de red
               td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold Ifconfig interfaz up]: Habilita la interfaz indicada. #[br] #[em.fw-bold Ifconfig interfaz down]: Deshabilita la interfaz indicada.
-    
+
     .cont_1_3.pb-4.pb-lg-5.mt-5
       h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando #[em ping]
       p.mt-4(data-aos="fade-left") #[em.fw-bold Ping] (#[em.fw-bold Packet Internet Groper]) está presente tanto en sistemas operativos Windows como en UNIX y en los sistemas operativos de red de algunos routers. El comando #[em ping] emplea el protocolo ICMP (Protocolo de control y notificación de errores) que está implementado por el modelo TCP/IP.
@@ -214,7 +214,7 @@
           span Comando #[em tracert]
         figure
           img(src='@/assets/curso/tema1/18.png' alt="Ejecución del comando tracert a la URL www.google.com.co en un equipo con sistema operativo Windows.")
-    
+
     p.mt-5(data-aos="fade-right") La figura siguiente, detalla más y mejor la ejecución del comando #[em tracert] y #[em traceroute]:
 
     .col-xl-10.m-auto.mt-4
@@ -229,7 +229,7 @@
           .col-lg-4(data-aos="fade-left")
             .h-100.d-flex.flex-wrap.align-content-center.p-4.p-xl-5(style="background-color:#CCBCFD;")
               p.mb-0 Las columnas con la información que se muestra en la pantalla después de la ejecución del comando #[em Tracert indica], respectivamente: primera columna el número de salto, las siguientes tres columnas el tiempo de respuesta de los paquetes que son enviados, donde el símbolo del asterisco (*) indica que no se obtuvo respuesta, y la última columna indica la dirección IP del nodo por el que pasa el paquete.
-    
+
     .cont_1_4.mt-5.pt-4.pt-lg-5.pb-4.pb-lg-5
       h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando ARP
       p.mt-4(data-aos="fade-left") El comando ARP, (Protocolo de resolución de direcciones) permite obtener la información de la tabla ARP del dispositivo en red.
@@ -255,7 +255,7 @@
         span Comando #[em Route print]
       figure(data-aos="zoom-in-up")
         img(src="@/assets/curso/tema1/22.png" alt="Imagen de la ejecución del comando route print en un equipo con sistema operativo Windows.")
-    
+
     p.mt-5(data-aos="fade-right") Para consultar la información en sistemas operativos Windows en la ventana #[em.fw-bold cmd.exe] digitar la siguiente línea: #[em.fw-bold route print], para sistemas derivados de UNIX digitar la línea: #[em.fw-bold route -n].
 
     .cont_1_5.mt-5.pt-4.pt-lg-5.pb-4.pb-lg-5
@@ -276,16 +276,17 @@
       p.mt-5(data-aos="fade-right") En el siguiente video se explican algunos de los comandos de red en Windows que pueden ser usados para verificar la conectividad de la red:
       figure.mt-4(data-aos="zoom-im-up")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/vGY6pwvgEUk?si=5N4a0X5RLXo8nhNX" title="Comandos de red en Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Comandos de red en Windows
 
 
 
 
-    
 
 
-      
+
+
+
 </template>
 
 <script>

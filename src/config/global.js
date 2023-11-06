@@ -118,7 +118,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228183-CF10-DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -202,9 +202,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro: '',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable de Línea de Producción',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -230,44 +231,10 @@ export default {
             'Centro de la Industria, la empresa y los servicios. Regional Norte de Santander',
         },
         {
-          nombre: 'Deivis Eduard Ramírez Martínez',
-          cargo: 'Diseñador instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica. Regional Distrito Capital',
-        },
-        {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Centro de la gestión industrial. Regional Distrito Capital',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor pedagógico',
-          centro:
-            'Centro industrial del Diseño y la Manufactura. Regional Santander',
-        },
-        {
-          nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Diseñador y evaluador instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica. Regional Distrito Capital',
-        },
-        {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñador Instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable desarrollo curricular Ecosistema RED Santander',
-          centro:
-            'Centro industrial del Diseño y la Manufactura. Regional Santander',
-        },
-        {
-          nombre: '',
-          cargo: '',
-          centro: '',
         },
       ],
     },
@@ -275,7 +242,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -284,7 +251,7 @@ export default {
           nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: '',
@@ -293,14 +260,14 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Animación y Producción audiovisual',
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Animación y Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Animación y Producción audiovisual',
+          nombre: 'Daniela Muñoz Bedoya ',
+          cargo: 'Animación y Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -310,19 +277,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: '',
+          nombre: 'Zuleidy María Ruiz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro: '',
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro: '',
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
