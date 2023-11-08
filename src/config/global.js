@@ -254,12 +254,6 @@ export default {
             'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: '',
-          cargo: 'Animación y Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
           nombre: 'Carlos Eduardo Garavito Parada ',
           cargo: 'Animación y Producción Audiovisual',
           centro:
