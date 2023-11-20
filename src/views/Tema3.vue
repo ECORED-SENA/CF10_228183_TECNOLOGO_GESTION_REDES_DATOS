@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Verificación de red
-    
+
     p(data-aos="fade-right") Para abordar la gestión de redes en sí, hay que considerar primero algunos escenarios a manera de ejemplo, en el cual componentes complejos del sistema interactúan y son inspeccionados, gestionados y monitoreados por un supervisor.
     .cont_3_1.mt-4.pb-5
       figure(data-aos="zoom-in-down")
@@ -17,11 +17,11 @@
             p.mb-0 El primer escenario a estudiar es el caso del panel de control de un avión, el cual le permite al piloto monitorear las variables operativas y analizar los datos para asegurar que los dispositivos estén operando dentro de los límites.
         .col-lg.mb-4.mb-lg-0.pe-lg-0.ps-lg-0
           .h-100.p-4.p-lg-5(style="background-color:#D9F6FE;")
-            p.mb-0 Como segundo escenario, se tiene una planta de generación de energía eléctrica, esta tiene una sala de control donde los diales, medidores y luces monitorean el estado de las variables a verificar (presión, flujo, temperatura, entre otros) en las tuberías, válvulas, contenedores y otros componentes del sistema. Estos dispositivosde monitoreo le permiten al operador tomar acciones en caso de presentarse problemas inminentes.
+            p.mb-0 Como segundo escenario, se tiene una planta de generación de energía eléctrica, esta tiene una sala de control donde los diales, medidores y luces monitorean el estado de las variables a verificar (presión, flujo, temperatura, entre otros) en las tuberías, válvulas, contenedores y otros componentes del sistema. Estos dispositivos de monitoreo le permiten al operador tomar acciones en caso de presentarse problemas inminentes.
         .col-lg.mb-4.mb-lg-0.ps-lg-0.pe-lg-0
           .h-100.bg-white.p-4.p-lg-5
             p.mb-0 En una forma similar, el administrador de la red supervisará, gestionará y controlará prontamente el sistema que se le confía. La verificación de la red incluye un monitoreo de red en un sentido más amplio indica la forma de supervisar de forma constante la funcionalidad de la red a fin de garantizar que los parámetros cumplen con las especificaciones del diseño de la organización.
-    
+
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure.m-auto.col-7.col-md-7.col-lg-12
@@ -35,12 +35,12 @@
                 img(src="@/assets/curso/tema3/4.svg")
             .col(style="place-self:center;" data-aos="fade-left")
               p.mb-0 Las redes privadas y públicas han crecido de pequeñas redes a una gran infraestructura global, la necesidad de administrar la gran cantidad de componentes de #[em hardware] y #[em software] dentro de estas redes, de manera más sistemática, también se ha vuelto una tarea más importante. Además, en los sistemas informáticos se pueden configurar a fin de monitorear la red con avisos y alarmas que se envíen de forma automática al administrador de la red.
-    
+
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_3_1 3.1  Monitoreo de rendimiento
-    
+
     .cont_3_2.pb-4.pb-lg-5
       p(data-aos="fade-right") Los monitoreos de rendimiento permiten analizar el rendimiento de la red. Son útiles a la hora de verificar las funciones de los dispositivos que se monitoreen.
       p(data-aos="fade-left") Dentro de los parámetros de rendimiento de la red, usualmente monitoreados, se encuentran:
@@ -67,12 +67,12 @@
             .col-md-6.col-lg-4
               figure
                 img(src='@/assets/curso/tema3/7.png')
-    
+
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_3_2 3.2  Monitoreo de red
-    
+
     .row
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         p Dentro de las fases más largas de la ejecución y puesta en marcha de sistemas informáticos, está la monitorización de la red, la cual permite la supervisión a fin de detectar posibles fallas en la red y verificar su correcto funcionamiento.
@@ -86,7 +86,7 @@
       .col-lg-5(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-md-7.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema3/9.png")
-    
+
     .cont_3_3.mt-5
       .col-xl-8.m-auto
         .titulo-sexto.color-acento-contenido(data-aos="fade-in")
@@ -102,7 +102,7 @@
           .h-100.p-4.p-lg-5.text-center.text-white(style="background-color:#1E5AF9;border-radius:10px;")
             figure.text-center
               img(src="@/assets/curso/tema3/12.svg" style="max-width:100px;display:inline;")
-            p.fw-bold.mt-4 Analizadores de protocolos 
+            p.fw-bold.mt-4 Analizadores de protocolos
             p.mt-4.mb-0 También conocidos como #[em.text-white sniffers]. Estos analizan el tráfico de la red y proporcionan datos como cantidad y tipo de tráfico. Lo principal, al examinar las tramas de red, es detectar los tipos de protocolos que se están usando, para prevenir posibles ataques del exterior de la red.
         .col-lg.mb-4.mb-lg-0.col-md-10(data-aos="zoom-in-up")
           .h-100.p-4.p-lg-5.text-center.text-white(style="background-color:#1E5AF9;border-radius:10px;")
@@ -116,12 +116,12 @@
               img(src="@/assets/curso/tema3/14.svg" style="max-width:100px;display:inline;")
             p.fw-bold.mt-4 Monitorización remota
             p.mt-4.mb-0 Son herramientas en las que un dispositivo de red recopila y analiza los datos resultantes del monitoreo de los dispositivos de red y los centraliza en un único dispositivo que facilita la consulta por parte del administrador de red.
-    
+
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_3_3 3.3  Protocolos de prueba
-    
+
     p(data-aos="fade-right") Se trata de protocolos incorporados al modelo TCP/IP que permiten una administración y gestión de la red. Dichos protocolos conforman un conjunto de lineamientos que son reglas e instrucciones que permiten a los dispositivos compartir información en la red; los sistemas de monitoreo de red aplican estos protocolos para identificar fallas y notificar al administrador de la red.
 
     .row.mt-4
@@ -132,7 +132,7 @@
         p Según Valdivia (2020) hay dos protocolos importantes, que son usados para testear redes de datos:
         p #[strong.text-white.p-1(style="background-color:#6E40FB;") #[i.fas.fa-angle-right.text-white] #[em Internet Control Message Protocol (ICMP):]] es el Protocolo de mensajes de control de Internet.
         p #[strong.text-white.p-1(style="background-color:#6E40FB;") #[i.fas.fa-angle-right.text-white] #[em Simple Network Management Protocol (SNMP):]] es el Protocolo simple de administración de redes.
-    
+
     .cont_3_4.mt-5.pt-4.pt-lg-5.pb-4.pb-lg-5
       h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Protocolo ICMP
       .row.mt-5
@@ -150,7 +150,7 @@
         figure.p-4(style="background-color:#E9E2FE;" data-aos="zoom-in-up")
           img(src="@/assets/curso/tema3/18.svg" alt="Gráfica que muestra la estructura o formato que configura un mensaje ICMP.")
         figcaption.fw-normal.mt-3(style="background-color:#fff;") Nota: adaptado de Valdivia (2020).
-    
+
     h4.text-white.p-2.mb-0.ps-4.pe-4.mt-5(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Protocolo SNMP
     p.mt-4(data-aos="fade-right") Este protocolo se ubica en la capa de aplicación del modelo TCP/IP. Fue desarrollado para administrar servidores, estaciones de trabajo, #[em Switches, Routers, Access points], entre otros. En una red de datos, el protocolo SNMP facilita el intercambio de información mediante el modelo cliente/servidor, proporcionando funciones de monitoreo de red que permita la supervisión de dispositivos de red.
     .col-xl-6.col-lg-10.m-auto.mt-5
@@ -159,7 +159,7 @@
         span Esquema SNMP
       figure.p-4(style="background-color:#E9E2FE;" data-aos="zoom-in-up")
         img(src="@/assets/curso/tema3/19.svg" alt="Esquema que muestra los elementos clave en una red monitorizada por el protocolo SNMP y su estructura.")
-    
+
     p.mt-5(data-aos="fade-right") Los elementos claves a la hora de monitorizar una red basados en el protocolo SNMP son:
 
     .cont_3_5.mt-5.pb-4
@@ -170,14 +170,14 @@
         .col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-up")
           .h-100.d-flex.flex-wrap.align-items-center.text-white.text-center.p-4(style="background-color:#1E5AF9;border-radius:5px;")
             .w-100
-              p.fw-bold Agente de gestión 
+              p.fw-bold Agente de gestión
               p.mt-4.mb-0 Representa el #[em software] que se encuentra instalado en los equipos que se desean gestionar/monitorear. Estos mismos proporcionan la información que solicite el NMS, además este protocolo permite la gestión de forma remota.
         .col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-up")
           .h-100.d-flex.flex-wrap.align-items-center.text-white.text-center.p-4(style="background-color:#1E5AF9;border-radius:5px;")
             .w-100
-              p.fw-bold NMS (#[em Network Management Station]) 
+              p.fw-bold NMS (#[em Network Management Station])
               p.mt-4.mb-0 Representa la estación de gestión de la red, requiere de Ia instalación de #[em software] específico, que permita gestionar/monitorizar la red. Dentro del #[em software] de gestión de SNMP se encuentra la suite Net-SNMP que integra diversas aplicaciones de gestión de red, basadas en el protocolo SNMP.
-    
+
     p.mt-5(data-aos="fade-right") El funcionamiento de los elementos del protocolo SNMP se basa en la estructura de datos normalizada, denominada MIB (#[em Management information base]).
 
     .row.mt-5

@@ -17,7 +17,7 @@
           p.mt-4 Dentro de las actividades de comprobación se encuentran:
           AcordionA.mt-4(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Rendimiento del sistema <em>(benchmark)</em>")
-              p Mide el rendimiento de cualquier componente del sistema desde la CPU hasta la tarjeta gráfica; el resultado de la prueba ejecutada mediante un programa, ya sea online o instalado en la máquina, devuelve información detallada de las características y evalúa si el equipo se encuentra funcionando de forma correcta o si presenta alguna falla. Algunos programas gratuitos para dicha verificación son: CPU-Z, HWMonitor, Speccy, entre otros.
+              p Mide el rendimiento de cualquier componente del sistema desde la CPU hasta la tarjeta gráfica; el resultado de la prueba ejecutada mediante un programa, ya sea #[em online] o instalado en la máquina, devuelve información detallada de las características y evalúa si el equipo se encuentra funcionando de forma correcta o si presenta alguna falla. Algunos programas gratuitos para dicha verificación son: CPU-Z, HWMonitor, Speccy, entre otros.
             .row(titulo="Simulación de cargas")
               p Una carga representa la cantidad de procesamiento que se le asigna a un dispositivo de cómputo; la carga de prueba es una similitud de la carga habitual de la máquina. Con esta verificación, lo que se busca es comprobar si dicho dispositivo es pertinente para la ejecución de una aplicación concreta.
             .row(titulo="Consumo de recursos")

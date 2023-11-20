@@ -12,7 +12,7 @@
         .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
           .cont_1_2
             p A partir del desarrollo de las infraestructuras tecnológicas, el personal encargado de la administración de la red realiza una verificación inicial antes del despliegue; esto para comprobar la instalación de los dispositivos periféricos y que su configuración cumpla con los requerimientos de la organización. Así mismo, se verifica la red de datos.
-          p.mt-4 Para realizar esa actividad los administradores cuentan con un conjunto de herramientas e instrumentos que pueden ser tanto físicos (cableado, dispositivos, conexiones, módems, etc,) como en #[em software] (configuraciones, comando, etc.), dicha comprobación debe ser documentada a fin de realizar futuras revisiones. La siguiente figura ilustra las características de cada tipo de inspección:
+          p.mt-4 Para realizar esa actividad, los administradores cuentan con un conjunto de herramientas e instrumentos que pueden ser tanto físicos (cableado, dispositivos, conexiones, módems, etc.) como en #[em software] (configuraciones, comando, etc.), dicha comprobación debe ser documentada a fin de realizar futuras revisiones. La siguiente figura ilustra las características de cada tipo de inspección:
         .col-lg-4(data-aos="fade-left")
           figure.m-auto.col-lg-12.col-md-6.col-7.d-none.d-lg-block
             img(src="@/assets/curso/tema1/1.png")
@@ -67,7 +67,7 @@
         figure
           img(src="@/assets/curso/tema1/9.svg")
       .col(style="place-self:center;" data-aos="fade-left")
-        p.mb-0 Por otro lado, al realizar la verificación física de los dispositivos de red como #[em switch, router], servidores, entre otros, se suele realizar una inspección rápida de los indicadores luminosos, comúnmente conocidos como LED que proporcionan una vista rápida del estado de conexión del equipo.
+        p.mb-0 Por otro lado, al realizar la verificación física de los dispositivos de red como #[em switch, router], servidores, entre otros, se suele realizar una inspección rápida de los indicadores luminosos, comúnmente conocidos como LED, que proporcionan una vista rápida del estado de conexión del equipo.
 
     p.mt-4(data-aos="fade-right") Algunos identificadores LED que se encuentran en estos dispositivos son:
 
@@ -166,21 +166,21 @@
               th.text-white.text-center(style="border:1px #fff solid;") UNIX
           tbody
             tr(style="background-color:#E9E2FE;")
-              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ipconfig/all]: Muestra la información detallada de las interfaces del equipo
-              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ifconfig-a]: Muestra la información detallada de las interfaces del equipo. #[br] #[em.fw-bold ifconfig interfaz]: Informar sobre una interfaz determinada
+              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ipconfig/all]: muestra la información detallada de las interfaces del equipo
+              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ifconfig-a]: muestra la información detallada de las interfaces del equipo. #[br] #[em.fw-bold ifconfig interfaz]: Informar sobre una interfaz determinada
             tr(style="background-color:#fff;")
-              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ipconfig/release]: Permite borrar la configuración actual del adaptador de red
+              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ipconfig/release]: permite borrar la configuración actual del adaptador de red
               td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ifconfig interfaz address dirección_IP netmask máscara]: Permite modificar los parámetros de acceso a la red de una interfaz según las especificaciones de dirección_IP y máscara configurados
             tr(style="background-color:#E9E2FE;")
-              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold Ipconfig/renew]: Permite volver a cargar la configuración del adaptador de red
-              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold Ifconfig interfaz up]: Habilita la interfaz indicada. #[br] #[em.fw-bold Ifconfig interfaz down]: Deshabilita la interfaz indicada.
+              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold Ipconfig/renew]: permite volver a cargar la configuración del adaptador de red
+              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold Ifconfig interfaz up]: habilita la interfaz indicada. #[br] #[em.fw-bold Ifconfig interfaz down]: deshabilita la interfaz indicada.
 
     .cont_1_3.pb-4.pb-lg-5.mt-5
       h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando #[em ping]
       p.mt-4(data-aos="fade-left") #[em.fw-bold Ping] (#[em.fw-bold Packet Internet Groper]) está presente tanto en sistemas operativos Windows como en UNIX y en los sistemas operativos de red de algunos routers. El comando #[em ping] emplea el protocolo ICMP (Protocolo de control y notificación de errores) que está implementado por el modelo TCP/IP.
       .row.mt-5
         .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-          p Para verificar la conectividad de los dispositivos en red se especifica la dirección IP del dispositivo destino con el que se quiere establecer la conexión; si el comando ping no recibe respuesta, esto indica un problema de conectividad que se encuentra ubicado en algún elemento del nivel físico o de red, o en la misma configuración de red del equipo origen o destino.
+          p Para verificar la conectividad de los dispositivos en red se especifica la dirección IP del dispositivo destino con el que se quiere establecer la conexión; si el comando #[em ping] no recibe respuesta, esto indica un problema de conectividad que se encuentra ubicado en algún elemento del nivel físico o de red, o en la misma configuración de red del equipo origen o destino.
           figure.mt-4.m-auto.col-6.col-md-6.col-lg-12
             img(src="@/assets/curso/tema1/14.svg")
         .col-lg-7(data-aos="fade-left")
@@ -199,16 +199,16 @@
                 figure
                   img(src='@/assets/curso/tema1/16.png' alt="Imagen de la ejecución del comando ping a la URL www.google.com.co en un equipo con sistema operativo Windows.")
 
-    p.mt-5(data-aos="fade-right") Al usar el comando ping, este envía un mensaje ICMP con una solicitud de #[strong.fw-bold.text-white(style="background-color:#6E40FB;") echo] al equipo destino. Los resultados emitidos están conformados por el número de paquetes que se envían de origen a destino, los paquetes recibidos y los paquetes perdidos, incluyendo el tiempo de ida y vuelta de los paquetes medido en milisegundos. Si la conexión a internet es la correcta se obtiene una respuesta donde los paquetes perdidos representan el 0 %.
+    p.mt-5(data-aos="fade-right") Al usar el comando #[em ping], este envía un mensaje ICMP con una solicitud de #[strong.fw-bold.text-white(style="background-color:#6E40FB;") echo] al equipo destino. Los resultados emitidos están conformados por el número de paquetes que se envían de origen a destino, los paquetes recibidos y los paquetes perdidos, incluyendo el tiempo de ida y vuelta de los paquetes medido en milisegundos. Si la conexión a internet es la correcta se obtiene una respuesta donde los paquetes perdidos representan el 0 %.
 
     h4.text-white.p-2.mb-0.ps-4.pe-4.mt-5(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando #[em tracert] y #[em traceroute]
-    p.mt-4(data-aos="fade-left") El comando #[strong.fw-bold.text-white(style="background-color:#6E40FB;") tracert] para sistemas operativos Windows y #[strong.fw-bold.text-white(style="background-color:#6E40FB;") traceroute] para sistemas operativos UNIX como MAC OS o Linux y para sistemas operativos de red de algunos #[em routers], es una herramienta de diagnóstico que permite rastrear el recorrido de los paquetes y los tiempos de retardo que se producen. Al aplicar el comando, este muestra los datos de los dispositivos de red y los nodos por los que pasa y el tiempo que toma cada salto hasta conseguir llegar al destino.
+    p.mt-4(data-aos="fade-left") El comando #[strong.fw-bold.text-white(style="background-color:#6E40FB;") #[em tracert]] para sistemas operativos Windows y #[strong.fw-bold.text-white(style="background-color:#6E40FB;") #[em traceroute]] para sistemas operativos UNIX como MAC OS o Linux y para sistemas operativos de red de algunos #[em routers], es una herramienta de diagnóstico que permite rastrear el recorrido de los paquetes y los tiempos de retardo que se producen. Al aplicar el comando, este muestra los datos de los dispositivos de red y los nodos por los que pasa y el tiempo que toma cada salto hasta conseguir llegar al destino.
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         figure.mt-4.m-auto.col-6.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/17.png")
       .col-lg-7(data-aos="fade-left")
-        p En sistemas Windows, para ejecutar este comando, se abre una ventana del sistema #[strong.fw-bold.text-white(style="background-color:#6E40FB;") cmd.exe] o símbolo del sistema. Allí, digitar la siguiente línea: #[strong.fw-bold.text-white(style="background-color:#6E40FB;") tracert] #[em URL_pagina_web].
+        p En sistemas Windows, para ejecutar este comando, se abre una ventana del sistema #[strong.fw-bold.text-white(style="background-color:#6E40FB;") cmd.exe] o símbolo del sistema. Allí, digitar la siguiente línea: #[strong.fw-bold.text-white(style="background-color:#6E40FB;") #[em tracert]] #[em URL_pagina_web].
         .titulo-sexto.color-acento-contenido.mt-4
           h5 Figura 5.
           span Comando #[em tracert]
@@ -228,7 +228,7 @@
               img(src='@/assets/curso/tema1/19.svg' alt="Gráfica que muestra la estructura de una prueba de la ruta desde el host B hacia un host remoto D, en la ejecución del comando tracert y traceroute.")
           .col-lg-4(data-aos="fade-left")
             .h-100.d-flex.flex-wrap.align-content-center.p-4.p-xl-5(style="background-color:#CCBCFD;")
-              p.mb-0 Las columnas con la información que se muestra en la pantalla después de la ejecución del comando #[em Tracert indica], respectivamente: primera columna el número de salto, las siguientes tres columnas el tiempo de respuesta de los paquetes que son enviados, donde el símbolo del asterisco (*) indica que no se obtuvo respuesta, y la última columna indica la dirección IP del nodo por el que pasa el paquete.
+              p.mb-0 Las columnas con la información que se muestra en la pantalla después de la ejecución del comando #[em Tracert indica], respectivamente: primera columna el número de saltos, las siguientes tres columnas el tiempo de respuesta de los paquetes que son enviados, donde el símbolo del asterisco (*) indica que no se obtuvo respuesta, y la última columna indica la dirección IP del nodo por el que pasa el paquete.
 
     .cont_1_4.mt-5.pt-4.pt-lg-5.pb-4.pb-lg-5
       h4.text-white.p-2.mb-0.ps-4.pe-4(style="max-width:fit-content;background-color:#6E40FC;border-radius:3px;" data-aos="fade-right") Comando ARP
