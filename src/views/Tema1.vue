@@ -170,7 +170,7 @@
               td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ifconfig-a]: muestra la información detallada de las interfaces del equipo. #[br] #[em.fw-bold ifconfig interfaz]: Informar sobre una interfaz determinada
             tr(style="background-color:#fff;")
               td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ipconfig/release]: permite borrar la configuración actual del adaptador de red
-              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ifconfig interfaz address dirección_IP netmask máscara]: Permite modificar los parámetros de acceso a la red de una interfaz según las especificaciones de dirección_IP y máscara configurados
+              td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold ifconfig interfaz address dirección_IP netmask máscara]: permite modificar los parámetros de acceso a la red de una interfaz según las especificaciones de dirección_IP y máscara configurados
             tr(style="background-color:#E9E2FE;")
               td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold Ipconfig/renew]: permite volver a cargar la configuración del adaptador de red
               td.p-3(style="border:1px #6E40FB solid;") #[em.fw-bold Ifconfig interfaz up]: habilita la interfaz indicada. #[br] #[em.fw-bold Ifconfig interfaz down]: deshabilita la interfaz indicada.
